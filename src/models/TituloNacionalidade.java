@@ -5,27 +5,29 @@
  */
 package models;
 
+import java.util.List;
+
 /**
  *
  * @author brunogiammella
  */
 public class TituloNacionalidade {
-    private Titulo titulo_id;
-    private Pais pais_id;
+    private List<Titulo> titulo;
+    private List<Pais> pais;
 
-    public Titulo getTitulo_id() {
-        return titulo_id;
+    public List<Titulo> getTitulo() {
+        return titulo;
     }
 
-    public void setTitulo_id(Titulo titulo_id) {
-        this.titulo_id = titulo_id;
+    public void setTitulo(List<Titulo> titulo) {
+        this.titulo = titulo;
     }
 
-    public Pais getPais_id() {
-        return pais_id;
+    public List<Pais> getPais() {
+        return pais;
     }
 
-    public void setPais_id(Pais pais_id) {
-        this.pais_id = pais_id;
+    public void setPais(List<Pais> pais) {
+        this.pais = pais;
     }
 }

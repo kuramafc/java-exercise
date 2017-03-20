@@ -5,27 +5,29 @@
  */
 package models;
 
+import java.util.List;
+
 /**
  *
  * @author brunogiammella
  */
 public class TituloAtor {
-    private Titulo titulo_id;
-    private Ator ator_id;
+    private List<Titulo> titulo;
+    private List<Ator> ator;
 
-    public Titulo getTitulo_id() {
-        return titulo_id;
+    public List<Titulo> getTitulo() {
+        return titulo;
     }
 
-    public void setTitulo_id(Titulo titulo_id) {
-        this.titulo_id = titulo_id;
+    public void setTitulo(List<Titulo> titulo) {
+        this.titulo = titulo;
     }
 
-    public Ator getAtor_id() {
-        return ator_id;
+    public List<Ator> getAtor() {
+        return ator;
     }
 
-    public void setAtor_id(Ator ator_id) {
-        this.ator_id = ator_id;
+    public void setAtor(List<Ator> ator) {
+        this.ator = ator;
     }
 }

@@ -10,15 +10,15 @@ package models;
  * @author brunogiammella
  */
 public class Bairro {
-    private Cidade cidade_id;
+    private Cidade cidade;
     private String nome;
 
-    public Cidade getCidade_id() {
-        return cidade_id;
+    public Cidade getCidade() {
+        return cidade;
     }
 
-    public void setCidade_id(Cidade cidade_id) {
-        this.cidade_id = cidade_id;
+    public void setCidade(Cidade cidade) {
+        this.cidade = cidade;
     }
 
     public String getNome() {

@@ -5,27 +5,29 @@
  */
 package models;
 
+import java.util.List;
+
 /**
  *
  * @author brunogiammella
  */
 public class TituloDiretor {
-    private Titulo titulo_id;
-    private Diretor diretor_id;
+    private List<Titulo> titulo;
+    private List<Diretor> diretor;
 
-    public Titulo getTitulo_id() {
-        return titulo_id;
+    public List<Titulo> getTitulo() {
+        return titulo;
     }
 
-    public void setTitulo_id(Titulo titulo_id) {
-        this.titulo_id = titulo_id;
+    public void setTitulo(List<Titulo> titulo) {
+        this.titulo = titulo;
     }
 
-    public Diretor getDiretor_id() {
-        return diretor_id;
+    public List<Diretor> getDiretor() {
+        return diretor;
     }
-    
-    public void setDiretor_id(Diretor diretor_id) {
-        this.diretor_id = diretor_id;
+
+    public void setDiretor(List<Diretor> diretor) {
+        this.diretor = diretor;
     }
 }

@@ -12,29 +12,37 @@ import java.math.BigInteger;
  * @author brunogiammella
  */
 public class Distribuidor {
-    private Bairro bairro_id;
-    private String razao_social;
+    private Bairro bairro;
+    private String razaoSocial;
     private int cnpj;
-    private String pessoa_contato;
+    private String pessoaContato;
     private String rua;
     private String numero;
     private String complemento;
     private int cep;
 
-    public Bairro getBairro_id() {
-        return bairro_id;
+    public Bairro getBairro() {
+        return bairro;
     }
 
-    public void setBairro_id(Bairro bairro_id) {
-        this.bairro_id = bairro_id;
+    public void setBairro(Bairro bairro) {
+        this.bairro = bairro;
     }
 
-    public String getRazao_social() {
-        return razao_social;
+    public String getPessoaContato() {
+        return pessoaContato;
     }
 
-    public void setRazao_social(String razao_social) {
-        this.razao_social = razao_social;
+    public void setPessoaContato(String pessoaContato) {
+        this.pessoaContato = pessoaContato;
+    }   
+
+    public String getRazaoSocial() {
+        return razaoSocial;
+    }
+
+    public void setRazaoSocial(String razaoSocial) {
+        this.razaoSocial = razaoSocial;
     }
 
     public int getCnpj() {
@@ -43,14 +51,6 @@ public class Distribuidor {
 
     public void setCnpj(int cnpj) {
         this.cnpj = cnpj;
-    }
-
-    public String getPessoa_contato() {
-        return pessoa_contato;
-    }
-
-    public void setPessoa_contato(String pessoa_contato) {
-        this.pessoa_contato = pessoa_contato;
     }
 
     public String getRua() {

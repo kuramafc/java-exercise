@@ -12,15 +12,15 @@ import java.math.BigInteger;
  * @author brunogiammella
  */
 public class Cidade {
-    private BigInteger estado_id;
+    private Estado estado;
     private String nome;
 
-    public BigInteger getEstado_id() {
-        return estado_id;
+    public Estado getEstado() {
+        return estado;
     }
 
-    public void setEstado_id(BigInteger estado_id) {
-        this.estado_id = estado_id;
+    public void setEstado(Estado estado) {
+        this.estado = estado;
     }
 
     public String getNome() {
